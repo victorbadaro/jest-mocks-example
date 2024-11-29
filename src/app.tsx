@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { api } from './services/api';
 
-type Todo = {
+export type Todo = {
 	id: number;
 	title: string;
 	completed: boolean;
