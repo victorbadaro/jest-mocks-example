@@ -5,6 +5,6 @@ describe('<App />', () => {
 	it('should render the component without any errors', () => {
 		render(<App />);
 
-		expect(screen.getByRole('heading')).toBeTruthy();
+		expect(screen.getByRole('heading')).toHaveTextContent('Todos');
 	});
 });
